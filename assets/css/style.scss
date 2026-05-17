@@ -1,0 +1,42 @@
+---
+---
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Inter:wght@300;400;500&display=swap');
+
+@import "jekyll-theme-cayman";
+
+/* Calm pastel sunset palette */
+.page-header {
+  background: linear-gradient(
+    120deg,
+    #b9a7d6, /* soft lavender (purple) */
+    #e6b7b2, /* muted rose (red) */
+    #f2e2a9  /* pale warm yellow */
+  );
+}
+
+/* Title (Notes from Carmen) */
+.project-name {
+  font-family: 'Caveat', cursive;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* Subtitle under title */
+.project-tagline {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+}
+
+/* Body text */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Text + accents */
+$header-heading-color: #2b2b2b;
+$header-text-color: #2b2b2b;
+
+$section-headings-color: #3a2f4a;
+$body-link-color: #7a5c9e;

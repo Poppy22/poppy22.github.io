@@ -1,2 +1,2 @@
-# notesfromcarmen.github.io
+# Notes from Carmen
 Personal website
